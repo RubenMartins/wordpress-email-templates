@@ -52,7 +52,7 @@ class Mailtpl_Customizer {
 	public function register_customize_sections( $wp_customize ){
 
 		$wp_customize->add_panel( 'mailtpl', array(
-			'title'         => __( 'Wordpress Email Templates', 'email-templates' ),
+			'title'         => __( 'WordPress Email Templates', 'email-templates' ),
 			'description'   => __( 'Within the Email Templates customizer you can change how your WordPress Emails looks. It\'s fully compatible with WooCommerce and Easy Digital Downloads html emails', 'email-templates' ),
 		) );
 
